@@ -1,0 +1,27 @@
+@import "compass";
+
+.message-wrapper {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	.message {
+		display: none;
+		position: relative;
+		margin:  70px  auto 0;
+		padding: 20px 50px;
+		font-size: 14px;
+		line-height: 20px;
+		&.success{
+			border: 1px solid limegreen;
+		}
+		&.error{
+			border: 1px solid darkred;
+		}
+		width: 300px;
+		background: rgba(white, 0.8);
+		@include border-radius(5px);
+
+	}
+}
+

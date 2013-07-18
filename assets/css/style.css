@@ -1,0 +1,31 @@
+/* line 3, style.scss */
+.message-wrapper {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+/* line 8, style.scss */
+.message-wrapper .message {
+  display: none;
+  position: relative;
+  margin: 70px auto 0;
+  padding: 20px 50px;
+  font-size: 14px;
+  line-height: 20px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 16, style.scss */
+.message-wrapper .message.success {
+  border: 1px solid limegreen;
+}
+/* line 19, style.scss */
+.message-wrapper .message.error {
+  border: 1px solid darkred;
+}
