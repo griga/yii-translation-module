@@ -32,7 +32,7 @@ Add next lines to your <code>config.php</code> file
                 ...
 
                 'translation' => 'translation',
-                `'translation/<controller:\w+>/<action:\w+>'=>'translation/<controller>/<action>'`,
+                'translation/`<controller:\w+>`/<action:\w+>'=>'translation/<controller>/<action>',
 			),
 		),
 </pre>
